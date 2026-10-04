@@ -36,7 +36,6 @@ void resetSim() {
     rng   = new Random(cfg.RANDOM_SEED);
     grid  = new Grid(cfg.ROWS, cfg.COLS);
     rules = new ArrayList<Rule>();
-    rules.add(new ResolveOverlapsRule());
     rules.add(new MovementRule());   // owns CollisionRule + NudgeRule internally
     rules.add(new LaunchRule());
     rules.add(new CleanupRule());

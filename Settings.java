@@ -44,8 +44,8 @@ public class Settings {
     // ------------------------------------------------------------------
     // Rule R2 — Collision
     // ------------------------------------------------------------------
-    public float COLLISION_BASE            = 0.005f;
-    public float COLLISION_MAX             = 0.5f;
+    public float COLLISION_BASE            = 0.05f;
+    public float COLLISION_MAX             = 0.7f;
     public float DEBRIS_PER_COLLISION      = 2.0f;
     public float COLLISION_YIELD           = 1.0f;
     public int   MAX_DEBRIS_PER_COLLISION  = 8;
